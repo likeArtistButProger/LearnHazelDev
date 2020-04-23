@@ -15,7 +15,7 @@ namespace TestEngine {
 	}
 
 
-	void Application::Run() 
+	void Application::Run()
 	{
 		while (true)
 		{

@@ -3,8 +3,9 @@
 
 // For use by Test Engine applications
 
-#include <stdio.h>
+
 #include "TestEngine/Application.h"
+#include "TestEngine/Log.h"
 
 // ----- Entry Point------
 

@@ -6,7 +6,11 @@ extern TestEngine::Application* TestEngine::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Entry point is passed through");
+	TestEngine::Log::Init();
+	TE_CORE_WARN("Initialized Core Log!");
+	TE_INFO("Initialized Client Log!");
+
+
 	auto app = TestEngine::CreateApplication();
 	app->Run();
 	delete app;

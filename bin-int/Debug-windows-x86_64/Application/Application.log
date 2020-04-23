@@ -1,0 +1,7 @@
+﻿  SandboxApp.cpp
+C:\Users\sosko\Desktop\TestEngine\TestEngine\src\TestEngine\Application.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\sosko\Desktop\TestEngine\TestEngine\src\TestEngine\Log.h(17,54): warning C4251: 'TestEngine::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'TestEngine::Log'
+C:\Users\sosko\Desktop\TestEngine\TestEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\Users\sosko\Desktop\TestEngine\TestEngine\src\TestEngine\Log.h(18,56): warning C4251: 'TestEngine::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'TestEngine::Log'
+C:\Users\sosko\Desktop\TestEngine\TestEngine\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Application.vcxproj -> C:\Users\sosko\Desktop\TestEngine\Application\..\bin\Debug-windows-x86_64\Application\Application.exe

@@ -18,4 +18,3 @@ namespace TestEngine {
 	Application* CreateApplication();
 }
 
-
